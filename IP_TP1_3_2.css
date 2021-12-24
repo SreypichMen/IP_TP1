@@ -1,0 +1,6 @@
+.wrapper {
+    width: clamp(300px, 60vw, 800px);
+    background-color: greenyellow;
+    height: clamp(300px, 60vw, 800px);
+    border: 1px solid greenyellow;
+}

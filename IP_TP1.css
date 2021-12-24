@@ -1,0 +1,23 @@
+.wrappper {
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    position: relative;
+    height: 540px;
+}
+
+.flying-box {
+    background-color: palevioletred;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate( -50%, -50%);
+}
+
+p {
+    text-align: center;
+    padding: 10%;
+    color: aliceblue;
+}

@@ -1,0 +1,12 @@
+.container {
+    background-color: aliceblue;
+}
+
+.Header {
+    width: 95%;
+    text-align: center;
+    padding: 2%;
+    background-color: #888;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop {
+    position: relative;
+    animation: drop 2s ease-in-out;
+    animation-delay: calc(var(--order) * 100ms);
+    font-size: 2rem;
+    padding: 2%;
+}
+
+@keyframes drop {
+    from {
+        bottom: 0px;
+    }
+    to {
+        top: 200px;
+    }
+}

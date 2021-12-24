@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-gap: 5px;
+}
+
+.box {
+    background-color: rgb(59, 187, 20);
+    padding: 20px;
+    text-align: center;
+}
